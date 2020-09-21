@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css"  href="./styles/styles.css">
+
   
   <title>Frontend Mentor | Four card feature section</title>
 
@@ -14,31 +16,113 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+<body style="background-color:hsl(0, 0%, 98%)">
+  <div class="container" >
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="text-muted offset-3">
+          Reliable, efficient delivery
+        </div>
+        <div class="w-100"></div>
+        <div class="font-weight-bolder offset-3">
+          Powered by Technology
+        </div>
+        <div class="w-100"></div>
+        <div class="text-muted text-justify">
+          Our Artificial Intelligence powered tools use millions of project data points 
+          to ensure that your project is successful
+        </div>
+        
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="card border-right-0 border-left-0 border-bottom-0 border-info shadow m-3 rounded">
+          <span class="border border-info"></span>
+          <span class="border border-info"></span>
+          <div class="card-body">
+            <div class="card-title">
+              <div class="font-weight-bold">
+                Supervisor
+              </div>
+            </div>
+            <div class="card-text text-break text-muted">
+              Monitors activity to identify project roadblocks
+            </div>
+          </div>
+          <img src="./images/icon-supervisor.svg"  class="offset-10 card-img-bottom rounded float-right mb-3" alt="magnifier" style="width: 2rem;" />
+        </div>
+      </div>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+      <div class="col-12">
+        <div class="card border-right-0 border-left-0 border-bottom-0 border-danger shadow m-3 rounded">
+          <span class="border border-danger"></span>
+          <span class="border border-danger"></span>
+          <div class="card-body">
+            <div class="card-title">
+              <div class="font-weight-bold">
+                Team Builder
+              </div>
+            </div>
+            <div class="card-text text-break text-muted">
+              Scans our talent network to create the optimal team for your project
+            </div>
+          </div>
+          <img src="./images/icon-team-builder.svg"  class="offset-10 card-img-bottom rounded float-right mb-3" alt="magnifier" style="width: 2rem;" />
+        </div>
+      </div>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+      <div class="col-12">
+        <div class="card border-right-0 border-left-0 border-bottom-0 border-warning shadow m-3 rounded">
+          <span class="border border-warning"></span>
+          <span class="border border-warning"></span>
+          <div class="card-body">
+            <div class="card-title">
+              <div class="font-weight-bold">
+                Karma
+              </div>
+            </div>
+            <div class="card-text text-break text-muted">
+              Regularly evaluates our talent to ensure quality
+            </div>
+          </div>
+          <img src="./images/icon-karma.svg"  class="offset-10 card-img-bottom rounded float-right mb-3" alt="magnifier" style="width: 2rem;" />
+        </div>
+      </div>
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+      <div class="col-12">
+        <div class="card border-right-0 border-left-0 border-bottom-0 border-primary shadow m-3 rounded">
+          <span class="border border-primary"></span>
+          <span class="border border-primary"></span>
+          <div class="card-body">
+            <div class="card-title">
+              <div class="font-weight-bold">
+                Calculator
+              </div>
+            </div>
+            <div class="card-text text-break text-muted">
+              Uses data from past projects to provide better delivery estimates
+            </div>
+          </div>
+          <img src="./images/icon-calculator.svg"  class="offset-10 card-img-bottom rounded float-right mb-3" alt="magnifier" style="width: 2rem;" />
+        </div>
+      </div>
+      
+    </div>
+  </div>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+
+
+
+
+
 
   
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://github.com/olawalejuwonm">Olawale Micheal Juwon</a>.
     </p>
   </footer>
 </body>
